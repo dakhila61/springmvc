@@ -13,10 +13,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class HomeController {
 
-    /**
-     * Simply selects the home view to render by returning its name.
-     */
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    //* Simply selects the home view to render by returning its name.
+
+    @RequestMapping(value = "/home", method = RequestMethod.GET)
     public String home(Locale locale, Model model) {
         System.out.println("Home Page Requested, locale = " + locale);
         Date date = new Date();

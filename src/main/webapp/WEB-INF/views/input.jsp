@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: sowmy
-  Date: 2/14/2024
-  Time: 12:57 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <%@ page session="false"%>
@@ -17,7 +10,7 @@
 
 <P>Enter height(inches) and weight(lbs)</p>
 
-<form action="bmi" method="post">
+<form action="resultbmi" method="post">
     <label>Height(in):</label>
     <input type="text" name="height"><br>
     <label>Weight(lb):</label>

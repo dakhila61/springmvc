@@ -8,7 +8,7 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
     <mvc:annotation-driven/>
     <context:annotation-config/>
-    <context:component-scan base-package="com.java.cis" />
+    <context:component-scan base-package="com.java.cis.controller" />
 
     <!-- Resolves views selected for rendering by @Controllers to .jsp resources
         in the /WEB-INF/views directory -->

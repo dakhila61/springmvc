@@ -22,7 +22,7 @@ public class BMIController {
         System.out.println("Home Page Requested, locale = " + locale);
         return "input";
     }
-    @RequestMapping(value = "/resultbmi", method = RequestMethod.POST)
+    @RequestMapping(value = "/bmi", method = RequestMethod.POST)
     public String result(@RequestParam("height") double heightInInches,
                          @RequestParam("weight") double weightInPounds,
                          Model model) {
@@ -32,4 +32,5 @@ public class BMIController {
         model.addAttribute("bmi", formattedBMI);
         return "result";
     }
+
 }
